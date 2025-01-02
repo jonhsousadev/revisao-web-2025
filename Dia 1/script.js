@@ -1,0 +1,1 @@
+alert("Esse será executado apenas quando todo o conteúdo HTML da página for carregado devido a palavra reservada defer.");

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dia 1 - revisão do básico de html 5, css 3 e javascript</title>
+  <!-- Aplicanto estilo externo -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Aplicando estilo interno -->
+   <style>
+    ul {
+      color: blue;
+    }
+   </style>
+   <!-- script interno -->
+    <script src="script.js" defer>
+    </script>
+    <script>
+      alert("Esse carrega antes do conteúdo todo da página");
+    </script>
+
+</head>
+<body>
+  <!-- Aplicando estilo inline -->
+  <h1 style="background-color: red;">Dia 01 -  revisão dos componentes básicos</h1>
+  <p>Esse é um parágrafo de texto simples, usado para representar blocos de texto e facilitar:</p>
+  <ul>
+    <li>Leitura</li>
+    <li>Entendimento</li>
+    <li>Compreensão</li>
+  </ul>
+  <script>
+    alert("Por ser colocado ao final da tag body, será carregado apenas ao final do carregamento da estrutura da página.");
+  </script>
+</body>
+</html>
